@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { GraduationCap, Heart } from 'lucide-react';
 
 const Footer: React.FC = () => {
@@ -23,18 +24,18 @@ const Footer: React.FC = () => {
               Quick Links
             </h3>
             <div className="mt-4 space-y-2">
-              <a href="/lessons" className="text-base text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-accent block">
+              <Link to="/lessons" className="text-base text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-accent block">
                 Lessons
-              </a>
-              <a href="/flashcards" className="text-base text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-accent block">
+              </Link>
+              <Link to="/flashcards" className="text-base text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-accent block">
                 Flashcards
-              </a>
-              <a href="/quizzes" className="text-base text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-accent block">
+              </Link>
+              <Link to="/quizzes" className="text-base text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-accent block">
                 Quizzes
-              </a>
-              <a href="/daily-word" className="text-base text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-accent block">
+              </Link>
+              <Link to="/daily-word" className="text-base text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-accent block">
                 Daily Word
-              </a>
+              </Link>
             </div>
           </div>
           
